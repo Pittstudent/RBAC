@@ -1,0 +1,35 @@
+<root>
+    
+    <attribute domain="payroll" function="access" accessLevel="write" name="owner"/>
+    <attribute domain="payroll" function="access" accessLevel="read" name="owner"/>
+    <attribute domain="payroll" function="access" accessLevel="write" name="manager" type="Senior"/>
+    <attribute domain="payroll" function="access" accessLevel="read" name="manager"/>
+    <attribute domain="payroll" function="access" accessLevel="read" name="lead"/>
+    <attribute domain="payroll" function="access" accessLevel="read" name="associate"/>
+
+    <attribute domain="cashierdrawer" function="access" accessLevel="write" name="owner"/>
+    <attribute domain="cashierdrawer" function="access" accessLevel="read" name="owner"/>
+    <attribute domain="cashierdrawer" function="access" accessLevel="write" name="manager"/>
+    <attribute domain="cashierdrawer" function="access" accessLevel="read" name="manager"/>
+    <attribute domain="cashierdrawer" function="access" accessLevel="write" name="lead"/>
+    <attribute domain="cashierdrawer" function="access" accessLevel="read" name="lead"/>
+    <attribute domain="cashierdrawer" function="access" accessLevel="read" name="associate" type="fulltime"/>
+
+    <attribute domain="punchinclock" function="access" accessLevel="write" name="owner"/>
+    <attribute domain="punchinclock" function="access" accessLevel="read" name="owner"/>
+    <attribute domain="punchinclock" function="access" accessLevel="write" name="manager"/>
+    <attribute domain="punchinclock" function="access" accessLevel="read" name="manager"/>
+    <attribute domain="punchinclock" function="access" accessLevel="write" name="lead"/>
+    <attribute domain="punchinclock" function="access" accessLevel="read" name="lead"/>
+    <attribute domain="punchinclock" function="access" accessLevel="write" name="associate" type="fulltime"/>
+    <attribute domain="punchinclock" function="access" accessLevel="read" name="associate" type="fulltime"/>
+    
+    <attribute domain="breakroom" function="access" accessLevel="write" name="owner"/>
+    <attribute domain="breakroom" function="access" accessLevel="read" name="owner"/>
+    <attribute domain="breakroom" function="access" accessLevel="read" name="manager"/>
+    <attribute domain="breakroom" function="access" accessLevel="read" name="lead"/>
+    <attribute domain="breakroom" function="access" accessLevel="read" name="associate"/>
+
+    <attribute domain="trainingcourse" function="access" accessLevel="read" name="associate" type="trainee"/>
+    <attribute domain="trainingcourse" function="access" accessLevel="read" name="manager" type="Junior"/>
+</root>

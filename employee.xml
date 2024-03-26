@@ -1,0 +1,14 @@
+<root>
+                        <!-- Owner.owner ← Rodrick -->
+    <attribute domain="owner" name="owner" constant="Rodrick"/>
+                        <!-- Employee.manager ← Time  -->
+    <attribute domain="employee" name="manager" type="Senior" constant="Tim"/>
+    <attribute domain="employee" name="manager" type= "Junior" constant="Bill"/>
+                        <!-- Employee.lead ← Sherif -->
+    <attribute domain="employee" name="lead" constant="Sherif"/>
+    <attribute domain="employee" name="lead" constant="John"/>
+                        <!-- Employee.associate ← Jarret -->
+    <attribute domain="employee" name="associate" type="trainee" constant="Jarret"/>
+    <attribute domain="employee" name="associate" type= "fulltime" constant="Wonsun"/>
+    <attribute domain="employee" name="associate" type="fulltime" constant="Luis"/>
+</root>
